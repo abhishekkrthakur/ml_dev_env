@@ -4,9 +4,15 @@ ARG PATH="/root/miniconda3/bin:${PATH}"
 
 RUN apt-get update
 RUN apt-get install -y \
-    bsdtar \
+    build-essential \
+    cmake \
     curl \
+    gcc \
     git \
+    libjpeg-dev \
+    libpng-dev \
+    libtiff-dev \
+    libgtk2.0-dev \
     locales \
     net-tools \
     wget \
