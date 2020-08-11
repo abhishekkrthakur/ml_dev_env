@@ -1,0 +1,15 @@
+{
+    "explorer.confirmDragAndDrop": false,
+    "editor.formatOnType": true,
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+    "python.linting.pylintArgs": [
+        "--generated-members=numpy.*,torch.*,cv2.*",
+        "--disable=C0111,C0115,C0116"
+    ],
+    "python.linting.flake8Args": [
+        "--max-line-length=120"
+    ],
+    "extensions.autoCheckUpdates": false,
+    "extensions.autoUpdate": false
+}
